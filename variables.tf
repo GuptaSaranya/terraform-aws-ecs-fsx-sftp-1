@@ -1,13 +1,14 @@
 variable "vpc_id" {
   type        = string
   description = "VPC ID"
+default = "vpc-0f0a06de9472d9401"
 }
-/*
 variable "subnet_ids" {
   type        = list(string)
   description = "Subnet IDs"
+default =["subnet-07fdde4dfc2c7a50d"]
 }
-*/
+
 variable "cluster_name" {
   type        = string
   default     = "sftp"
