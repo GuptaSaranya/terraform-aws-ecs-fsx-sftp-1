@@ -1,6 +1,5 @@
 provider "aws" {
       region = "ap-south-1"
-      alias = "ecs-sftp"
 }
 
 data "aws_partition" "current" {}
