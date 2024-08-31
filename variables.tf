@@ -280,6 +280,7 @@ variable "fsx_cifs_max_buf_size" {
 variable "script_s3_bucket" {
   type        = string
   description = "Name of an S3 bucket to store the FSx configuration script"
+default = "ecs-sftp1"
 }
 
 variable "script_s3_key" {
