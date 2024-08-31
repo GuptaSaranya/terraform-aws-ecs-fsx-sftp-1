@@ -1,3 +1,8 @@
+provider "aws" {
+      region = "ap-south-1"
+      alias = "ecs-sftp"
+}
+
 data "aws_partition" "current" {}
 data "aws_region" "current" {}
 data "aws_caller_identity" "current" {}
